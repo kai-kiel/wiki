@@ -9,12 +9,13 @@
   <body>	
   	<h1>Wikipedia-Suche</h1>
 	  <div>
-		  <form action="http://de.wikipedia.org/wiki/Spezial:Suche">
+		  <form action="http://de.wikipedia.org/wiki/Spezial:Suche" onclick="this.target='_blank'">
 		   <fieldset>
 		      <legend>Suche auf Wikipedia</legend>
 			     <label>Suchen <input type="text"   name="search" value="" /></label>
-			      <input type="submit" name="go" value="Artikel"/>
-			      <input type="submit" name="fulltext" value="Volltext" />
+			      <p><input type="submit" name="go" value="Artikel"/>
+			      	<input type="submit" name="fulltext" value="Volltext" />
+			      </p>
 		   </fieldset>
 		</form>
 	</div>
